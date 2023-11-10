@@ -1,0 +1,17 @@
+:root{
+    --marrom: #302727;
+    --vermelho: #ba2d2d;
+    --laranjaEscuro: #f2511b;
+    --laranja: #f2871b98;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+}
+
+header, footer{
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+a{
+    color: var(--branco);
+}
