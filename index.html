@@ -10,69 +10,72 @@
 </head>
 <body>
     <div id="root" class="container-fluid p-0 m-0">
-        <header>
-            <nav class="navbar navbar-expand-md">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="images/logoWhite.svg" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Ajuda</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Empréstimos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Faça sua conta bancária</a>
-                      </li>
-                    </ul>
-                    <button type="button" data-bs-toggle="" data-bs-target="#">
-                        Abra sua conta
-                      </button>      
-                  </div>
-                </div>
-              </nav>
-        </header>
+      <header>
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logoWhite.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Empréstimos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Faça sua conta bancária</a>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-outline-light ms-auto" style="padding: 20px;">Abra sua conta</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+<main>
+      <!-- Seção Banner -->
+      <section id="banner" style="background-color: var(--branco); position: relative;" class="container-fluid mx- my-0 p-0">
+        <div id="caixaTexto" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background-color: var(--laranja);color: white;">
+          <h1>SEJA BEM VINDO AO BANCO 90!</h1>
+          <p>Aqui você encontra o melhor serviço e atendimento do Brasil.</p>
+          <button type="button" style="background-color: var(--marrom); color: var(--branco); border: 1px solid var(--laranjaEscuro); padding:10px;" data-bs-toggle="" data-bs-target="#">
+            Faça sua conta agora!
+          </button>   
+        </div>
+        <img src="images/banner.jpg" class="img-fluid" alt="..." style="width:100%; height: auto;">
 
-        <main>
-            <section id="banner" style="background-color: var(--laranja);" class="container-fluid mx-0 my-2 p-0">
-                <div id="caixaTexto">
-                    <h1>SEJA BEM VINDO AO BANCO 90!</h1>
-                    <p>Aqui você encontra o melhor serviço e atendimento do Brasil.</p>
-                    <button type="button" style="background-color: var(--marrom); border: var(--laranjaEscuro);" data-bs-toggle="" data-bs-target="#">
-                        Faça sua conta agora!
-                      </button>      
-                </div>
-                <img src="images/banner.jpg" class="img-fluid" alt="...">
-            </section>
-
-            <section id="introSection" style="color: var(--azul);" class="container-fluid mx-0 my-2 p-0 text-center">
-                <h3 class="my-3"></h3>
-                <div class="container mx-auto my-3 row">
-                    <!-- GRID - 12 COLUNAS e é definido pelo row -->
-                    <!-- <element class="col-(numero de 1 a 12)" col é atributo responsável pelas colunas e pela quantidade ocupada-->
-                    <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="images/codigoDeBarras.svg" alt="">
-                    </div>
-                    <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="images/CartaoDeCredito.svg" alt="">
-                    </div>
-                    <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="images/Dinheiro.svg" alt="">
-                    </div>
-                </div>
-                
-                <div class="container">
-                    <p></p>
-
-            </section></section>
-        </main>
+        <section id="pagamento" class="container-fluid mx-3 my-3 p-3 text-center" style="background-color: var(--branco);">
+          <h1>ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h1>
+          <div class="card-group">
+            <div class="card" style="margin-right: 10px;">
+              <img src="images/codigoDeBarras.svg" class="card-img-top mx-auto" alt="..." style="padding: 10px; width: 40%;">
+              <div class="card-body">
+                <h5 class="card-title">BOLETO</h5>
+              </div>
+            </div>
+  
+            <div class="card" style="margin-right: 10px;">
+              <img src="images/CartaoDeCredito.svg" class="card-img-top mx-auto" alt="..." style="padding: 10px; width: 40%;">
+              <div class="card-body">
+                <h5 class="card-title">CARTÃO</h5>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="images/Dinheiro.svg" class="card-img-top mx-auto" alt="..." style="padding: 10px; width: 40%;">
+              <div class="card-body">
+                <h5 class="card-title">DINHEIRO</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+</main>
 
         <footer class="text-center py-3">
             <h4>Todos os direitos reservados a Bank 90!</h4>

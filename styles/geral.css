@@ -11,7 +11,3 @@ header, footer{
     background-color: var(--vermelho);
     color: var(--branco);
 }
-
-a{
-    color: var(--branco);
-}
