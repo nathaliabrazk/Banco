@@ -2,6 +2,7 @@
     --marrom: #302727;
     --vermelho: #ba2d2d;
     --laranjaEscuro: #f2511b;
+    --laranjaTrasparente: #f2511b8e;
     --laranja: #f2871b98;
     --amarelo: #c7c730;
     --branco: #ffffff;
@@ -10,4 +11,22 @@
 header, footer{
     background-color: var(--vermelho);
     color: var(--branco);
+}
+
+.nav-link, nav a{
+    color: var((--branco)important);
+}
+
+#bannerPrimeiroMetodo{
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#mensagemBanner{
+    width: 200px;
+    padding: 2rem;
+    background-color: #dd812ac2;
 }
